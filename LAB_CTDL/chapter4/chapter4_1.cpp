@@ -95,7 +95,7 @@ int doiCoSo (int n) {
     }
     long long result(0);
     while (!st.empty()) {
-        result = result* 10 + st.top();
+        result = result * 10 + st.top();
         st.pop();
     }
     return result;
