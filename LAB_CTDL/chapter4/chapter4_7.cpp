@@ -9,7 +9,7 @@ template<class DataType>
 class Node {
     private:
         DataType data;
-        Node* next;
+        Node<DataType>* next;
         friend class Stack<DataType>;
     public:
         Node(DataType data) : data(data), next(nullptr) {}
