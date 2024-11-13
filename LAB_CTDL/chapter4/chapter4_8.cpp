@@ -121,6 +121,7 @@ public:
     string getTenKhachHang() const {
         return ten_khach_hang;
     }
+    //Tên khách hàng_Số ghế
     friend istream& operator >> (istream& is, KhachHang& khachHang) {
         string s;
         getline(is, s);
